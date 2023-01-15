@@ -1,7 +1,63 @@
-@media screen and(max-width:991px) {
-    
+@media screen and (min-width:769px) and (max-width:991px) {
+    .nav-container{
+/* 
+        flex-direction: column;
+        align-items: center;
+        justify-content: right; */
+        align-items: flex-start;
+       
+    }
+    .nav-icon ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .nav-icon ul li a{
+        padding: 8px 0;
+        display: block;
+    }
+    .header-container{
+        padding: 0 20px;
+    }
+    .body-container,.body-images{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .feature-title{
+        padding-top: 50px;
+    }
+    .ten-years-btn{
+        bottom: 0;
+        right: 50%;
+        transform: translate(50%);
+    }
+    .some-fact-section{
+        margin-top: 100px;
+    }
+    .some-fact-icon{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .icon{
+        margin-right: 0;
+    }
+    .sponsors{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .containers{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 50px;
+    }
+    .contact p{
+        padding: 10px 0;
+     }
 }
-@media(max-width:668px) {
+@media screen and (min-width:576px) and (max-width:768px) {
     .nav-container, .nav-icon ul{
         flex-direction: column;
         align-items: center;
@@ -11,24 +67,143 @@
         padding: 8px 0;
         display: block;
     }
-    .header-contaianer{
+    .header-container{
         padding: 0 20px;
     }
     .body-container,.body-images{
         grid-template-columns: repeat(1, 1fr);
-       
     }
     .feature-container{
         grid-template-columns: repeat(1,1fr);
+    }
+    .feature-title{
+        padding-top: 50px;
     }
     .ten-years-btn{
         bottom: 0;
         right: 50%;
         transform: translate(50%);
     }
-    /* .nav-icon ul{
+    .some-fact-section{
+        margin-top: 100px;
+    }
+    .some-fact-icon{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .icon{
+        margin-right: 0;
+    }
+    .sponsors{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .containers{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 50px;
+    }
+    .contact p{
+        padding: 10px 0;
+     }
+}
+@media screen and (min-width:480px) and (max-width:576px){
+    .nav-container, .nav-icon ul{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    } */
+    }
+    .nav-icon ul li a{
+        padding: 8px 0;
+        display: block;
+    }
+    .header-container{
+        padding: 0 20px;
+    }
+    .body-container,.body-images{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .feature-title{
+        padding-top: 50px;
+    }
+    .ten-years-btn{
+        bottom: 0;
+        right: 50%;
+        transform: translate(50%);
+    }
+    .some-fact-section{
+        margin-top: 100px;
+    }
+    .some-fact-icon{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .icon{
+        margin-right: 0;
+    }
+    .sponsors{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .containers{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 50px;
+    }
+    .contact p{
+        padding: 10px 0;
+     }
+}
+@media screen and (min-width:0px) and (max-width:480px){
+    .nav-container, .nav-icon ul{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav-icon ul li a{
+        padding: 8px 0;
+        display: block;
+    }
+    .header-container{
+        padding: 0 20px;
+    }
+    .body-container,.body-images{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .feature-title{
+        padding-top: 50px;
+    }
+    .ten-years-btn{
+        bottom: 0;
+        right: 50%;
+        transform: translate(50%);
+    }
+    .some-fact-section{
+        margin-top: 100px;
+    }
+    .some-fact-icon{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .icon{
+        margin-right: 0;
+    }
+    .sponsors{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .containers{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 50px;
+    }
+    .contact p{
+        padding: 10px 0;
+     }
 }

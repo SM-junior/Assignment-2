@@ -6,6 +6,7 @@
 }
 li{
     list-style: none;
+    /* width: 150px; */
 }
 a{
     text-decoration: none;
@@ -48,9 +49,14 @@ nav{
     color: #424242;
     padding: 10px 20px;
 }
+.nav-icon ul li:hover{
+    width: 150px;
+    box-shadow: 5px 5px 10px grey;
+    text-align: center;
+}
 /* -------------------------header--------------------- */
-header{}
-.header-contaianer{
+
+.header-container{
     text-align: center;
 }
 .header-title h2{
@@ -84,10 +90,6 @@ header{}
     margin: auto;
 }
 /* -------------------------body--------------------- */
-
-.body-section{
-
-}
 .body-container{
     width: 75%;
     margin: auto;
@@ -150,17 +152,16 @@ header{}
     gap: 100px;
     align-items: center;
 }
-/* .features{
-    padding: 100px 0;
-} */
 .feature-title{
     padding-top: 100px;
 }
 .feature-title h2{
+    border-left: 4px solid orange;
     font-weight: 700;
     font-size: 45px;
     color: #131313;
     padding-right: 50px;
+    padding-left: 8px;
     margin-bottom: 24px;
 }
 .feature-title p{
@@ -212,7 +213,6 @@ header{}
     width: 80%;
     margin: 0 auto 180px;
 }
-.some-fact-container{}
 .some-fact-title h2{
     font-weight: 700;
     font-size: 45px;
@@ -258,9 +258,9 @@ header{}
     margin: auto;
     padding: 30px 0;
 }
-.sponsor-container{}
 .sponsor-title{
     text-align: center;
+    margin-bottom: 80px;
 }
 .sponsor-title h2{
     font-weight: 700;
@@ -280,41 +280,31 @@ header{}
     width: 50%;
     padding: 30px;
     color: white;
+    filter: grayscale(100%); 
+    filter: grayscale(100%);
+
 }
 /* -------------------------footer--------------------- */
-.footer-container{
-    width: 80%;
-    background-color: #FFF4E7;
-    margin: 20px auto 20px;
-    text-align: center;
-    border-radius: 5px;
-    
-}
-.footer-container p{
-    padding: 20px 0;
-    font-size: 14px;
-    color: black;
-}
-
-
 .footer{
-    background-color: black;
+    background-color: #FFF4E7;
+    width: 80%;
+    margin: auto;
 }
 .containers{
     width: 70%;
     margin:auto;
     display: flex;
-    padding: 50px 230px;
+    padding: 50px 50px;
 }
 .contact h3{
-    color: white;
+    color: black;
 }
 .contact h3{
     letter-spacing: 2px;
     font-size: 30px;
 }
 .contact p{
-   padding: 10px 300px 0 0;
+   padding: 10px 100px 0 0;
 }
 .social-media img{
    padding-right: 10px;
@@ -329,18 +319,37 @@ header{}
     display: flex;
 }
 .form h3{
-    color: white;
+    color: black;
     font-weight: 600;
     font-size: 30px;
     letter-spacing: 2px;
 }
 .form input{
-    padding: 15px 158px 15px 10px;
-    border: 1px solid white;
+    width: 70%;
+    padding: 15px 40px 15px 8px;
+    border: 1px solid black;
     margin-top: 20px;
     border-radius: 5px;
-    background-color: black;
+    background-color: #FFF4E7;
+    color: black;
 }
 .email{
     margin-bottom: 30px;
 }
+.footer-container{
+    width: 80%;
+    background-color: #FFF4E7;
+    margin: 0 auto 20px;
+    text-align: center;
+    border-radius: 5px;
+    border-top: 1px solid #FF900E;
+    
+}
+.footer-container p{
+    padding: 20px 0;
+    font-size: 14px;
+    color: #424242;
+}
+
+
+
