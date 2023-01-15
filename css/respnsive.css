@@ -1,11 +1,9 @@
 @media screen and (min-width:769px) and (max-width:991px) {
     .nav-container{
-/* 
-        flex-direction: column;
-        align-items: center;
-        justify-content: right; */
         align-items: flex-start;
-       
+    }
+    .logo{
+        margin-bottom: 100px;
     }
     .nav-icon ul{
         display: flex;
@@ -16,6 +14,16 @@
     .nav-icon ul li a{
         padding: 8px 0;
         display: block;
+    }
+    .nav-icon ul li{
+        border: 1px solid rgb(13, 12, 12);
+        width: 150px;
+        margin-top: 3px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .nav-icon ul li:hover{
+        box-shadow: 5px 5px 10px grey;
     }
     .header-container{
         padding: 0 20px;
@@ -67,6 +75,16 @@
         padding: 8px 0;
         display: block;
     }
+    .nav-icon ul li{
+        border: 1px solid rgb(13, 12, 12);
+        width: 150px;
+        margin-top: 3px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .nav-icon ul li:hover{
+        box-shadow: 5px 5px 10px grey;
+    }
     .header-container{
         padding: 0 20px;
     }
@@ -117,6 +135,16 @@
         padding: 8px 0;
         display: block;
     }
+    .nav-icon ul li{
+        border: 1px solid rgb(13, 12, 12);
+        width: 150px;
+        margin-top: 3px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .nav-icon ul li:hover{
+        box-shadow: 5px 5px 10px grey;
+    }
     .header-container{
         padding: 0 20px;
     }
@@ -166,6 +194,16 @@
     .nav-icon ul li a{
         padding: 8px 0;
         display: block;
+    }
+    .nav-icon ul li{
+        border: 1px solid rgb(13, 12, 12);
+        width: 150px;
+        margin-top: 3px;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .nav-icon ul li:hover{
+        box-shadow: 5px 5px 10px grey;
     }
     .header-container{
         padding: 0 20px;
