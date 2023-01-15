@@ -24,9 +24,9 @@ p{
 .head-section{
     background-color: #FFF4E7;
     padding: 50px 0;
+
 }
 nav{
-    /* padding:  0 100px 100px; */
     width: 80%;
     margin: auto;
     padding: 0 0 100px;
@@ -233,7 +233,7 @@ header{}
 
 }
 .icon{
-     width: 130px; 
+    width: 120px; 
     text-align: center;
     margin-right: 40px;
     border: 1px solid #FF900E;
@@ -244,11 +244,13 @@ header{}
     border-radius: 5px;
 }
 .icon img{
-    width: 45px;
-    height: 45px;
+    /* width: 45px;
+    height: 45px; */
+    width: 30%;
 }
 .icon h2{
     color: #424242;
+    margin-top: 15px;
 }
 /* -------------------------sponsor--------------------- */
 .sponsor{
@@ -275,9 +277,70 @@ header{}
     justify-content: center;
 }
 .sponsors img{
-    height: 40px;
-    width: 150px;
+    width: 50%;
     padding: 30px;
     color: white;
 }
+/* -------------------------footer--------------------- */
+.footer-container{
+    width: 80%;
+    background-color: #FFF4E7;
+    margin: 20px auto 20px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.footer-container p{
+    padding: 20px 0;
+    font-size: 14px;
+    color: black;
+}
 
+
+.footer{
+    background-color: black;
+}
+.containers{
+    width: 70%;
+    margin:auto;
+    display: flex;
+    padding: 50px 230px;
+}
+.contact h3{
+    color: white;
+}
+.contact h3{
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.contact p{
+   padding: 10px 300px 0 0;
+}
+.social-media img{
+   padding-right: 10px;
+}
+.social-media i{
+    color: #FF900E;
+    padding: 20px 10px 20px 0;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.social-media{
+    display: flex;
+}
+.form h3{
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+.form input{
+    padding: 15px 158px 15px 10px;
+    border: 1px solid white;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: black;
+}
+.email{
+    margin-bottom: 30px;
+}
